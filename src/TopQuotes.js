@@ -42,7 +42,7 @@ const TopQuotes = () => {
         </Link>
       </div>
       <br></br><br></br><br></br>
-      <h1> <b>‎ Top 5 </b> Quotes</h1>
+      <h1> <b>‎ Top 5 ‎</b>‎‎ Quotes</h1>
       <div className="quote-cards">
         {topQuotes.map((quote, index) => (
           <div key={index} className="quote-card">
