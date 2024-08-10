@@ -34,7 +34,7 @@ const TopQuotes = () => {
   return (
     <div className="top-quotes">
       <div className="navbar">
-        <a className="button-icon" href="https://github.com/lucas-ferreira/motivational-quote-generator">
+      <a className="button-icon" href="https://github.com/DaviJoseMach/MotiQuote">
           <i className="fa-brands fa-github icon-b"></i>
         </a>
         <Link className="button-icon" to="/">

@@ -32,7 +32,7 @@ const Home = () => {
   return (
     <div className="Home">
       <div className="navbar">
-        <a className="button-icon" href="https://github.com/lucas-ferreira/motivational-quote-generator">
+        <a className="button-icon" href="https://github.com/DaviJoseMach/MotiQuote">
           <i className="fa-brands fa-github icon-b"></i>
         </a>
         <Link className="button-icon" to="/top-quotes">
@@ -50,7 +50,7 @@ const Home = () => {
             <i className={`fa-solid ${copied ? 'fa-check' : 'fa-copy'}`}></i> {copied ? 'Copied!' : 'Copy'}
           </button>
         </div>
-        <a className="button-icon-w" href="https://github.com/lucas-ferreira/motivational-quote-generator">
+        <a className="button-icon-w" href="https://x.com/davvzin">
   <i className="fa-solid fa-mug-hot icon-b"></i>
   <span className="button-text">Buy me a drink</span>
 </a>
