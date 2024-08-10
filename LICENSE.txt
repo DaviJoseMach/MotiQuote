@@ -1,0 +1,19 @@
+Motiquote License - 2024
+
+© 2024 Davi José Machado Vasconcelos. All rights reserved.
+
+Permission to Use and Contribute:
+
+Permission is granted to any person obtaining a copy of this software and associated documentation files (the "Software"), to make adjustments and improvements to the Software, including making copies and submitting pull requests to the original repository. However, this permission is granted under the following conditions:
+
+Ownership: Davi José Machado Vasconcelos remains the sole owner of the Software. No ownership or title rights are transferred by this license.
+
+Distribution: Any redistribution or modification of the Software must retain this copyright notice and the terms of this license.
+
+Contributions: Contributions submitted via pull requests will be reviewed and, if accepted, will become part of the Software. However, the owner reserves the right to reject or modify any contribution.
+
+Commercial Use: Commercial use of the Software, in its original or modified form, requires prior express permission from Davi José Machado Vasconcelos.
+
+This software is provided "as is", without warranty of any kind, either express or implied, including, but not limited to, the warranties of merchantability, fitness for a particular purpose, and non-infringement. Under no circumstances shall the author be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising out of or in connection with the software or the use or other dealings in the software.
+
+This license retains ownership of the software, allows tweaks and pull requests, and preserves copyright.

@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+![Motiquote Banner](https://cdn.discordapp.com/attachments/1133480741074907195/1271896558048248009/MotiQUOTE.png?ex=66b9017a&is=66b7affa&hm=4dc21e60e8f19485fbaed33874d1d1867c4c5394970fc059846a0fa4cfcb14da&) <!-- Replace with your banner image link -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Motiquote
+
+Motiquote is a React application that brings you an inspiring collection of motivational quotes. With a modern and responsive interface, you can explore, copy and share quotes that will energize your day.
+
+## Technologies Used
+
+- **React**: Library for building user interfaces.
+- **JavaScript**: Main language of the project.
+- **Axios**: For HTTP requests.
+- **React Router**: For navigation between pages.
+
+## API Used
+
+Motiquote uses the [Quotes Free API](https://quotesfreeapi.com) to get motivational quotes from various sources.
+
+## Dependencies
+
+This project uses the following dependencies:
+
+- `@testing-library/jest-dom`: ^5.17.0
+- `@testing-library/react`: ^13.4.0
+- `@testing-library/user-event`: ^13.5.0
+- `axios`: ^1.7.3
+- `react`: ^18.3.1
+- `react-dom`: ^18.3.1
+- `react-router-dom`: ^6.26.0
+- `react-scripts`: 5.0.1
+- `web-vitals`: ^2.1.4
+
+## Image
+
+![Motiquote Screenshot](https://cdn.discordapp.com/attachments/1133480741074907195/1271896781944389722/image.png?ex=66b901af&is=66b7b02f&hm=378ab39275ab2dad9cc653220705b66a6875e2d9db94924fc126d03c6a55ec51&) <!-- Replace with your project image link -->
+
+## How to Contribute
+
+1. **Fork** the repository.
+2. **Clone** your fork to your local machine.
+3. Create a new **branch** (`git checkout -b feature/your-feature`).
+4. **Add** your changes and commit them (`git commit -am 'Add new feature'`).
+
+5. **Push** the branch to the remote repository (`git push origin feature/your-feature`).
+
+6. **Open** a Pull Request to the main branch.
+
+Make sure to follow the [contributing guidelines](CONTRIBUTING.md) and write tests for your changes.
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+- `npm start` - Starts the development server.
+- `npm run build` - Creates the production-optimized build.
+- `npm test` - Runs the tests.
+- `npm run eject` - Removes the Create React App build configuration (not recommended for most users).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## License
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This README provides an overview of the project, the technologies used, the API being used, and instructions on how to contribute.
