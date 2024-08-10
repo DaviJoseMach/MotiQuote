@@ -31,10 +31,18 @@ const TopQuotes = () => {
     setTimeout(() => setCopied(null), 2000);
   };
 
+  const share = (quote) => {
+    const tweetText = encodeURIComponent(`✨ Aqui está uma citação inspiradora para iluminar seu dia: "${quote}" 🌟 Veja mais em:`);
+    const tweetUrl = encodeURIComponent("https://motiquote.vercel.app/");
+    const twitterUrl = `https://twitter.com/intent/tweet?text=${tweetText}&url=${tweetUrl}`;
+
+    window.open(twitterUrl, '_blank', 'noopener,noreferrer');
+  };
+
   return (
     <div className="top-quotes">
       <div className="navbar">
-      <a className="button-icon" href="https://github.com/DaviJoseMach/MotiQuote">
+        <a className="button-icon" href="https://github.com/DaviJoseMach/MotiQuote">
           <i className="fa-brands fa-github icon-b"></i>
         </a>
         <Link className="button-icon" to="/">
@@ -52,6 +60,12 @@ const TopQuotes = () => {
               onClick={() => copyToClipboard(quote)}
             >
               <i className={`fa-solid ${copied === quote ? 'fa-check' : 'fa-copy'}`}></i> {copied === quote ? 'Copied!' : 'Copy'}
+            </button>
+            <button
+              className="copy-btn"
+              onClick={() => share(quote)}
+            >
+              <i className="fa-solid fa-share-nodes"></i> Share
             </button>
           </div>
         ))}
