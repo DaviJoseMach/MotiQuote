@@ -50,7 +50,7 @@ const Home = () => {
             <i className={`fa-solid ${copied ? 'fa-check' : 'fa-copy'}`}></i> {copied ? 'Copied!' : 'Copy'}
           </button>
         </div>
-        <a className="button-icon-w" href="https://x.com/davvzin">
+        <a className="button-icon-w" href="https://www.pixme.bio/davvzin">
   <i className="fa-solid fa-mug-hot icon-b"></i>
   <span className="button-text">Buy me a drink</span>
 </a>
