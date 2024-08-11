@@ -191,4 +191,7 @@ b {
     margin: 10px; /* Margem reduzida para dispositivos menores */
     text-align: left;
   }
+  .copy-btn span {
+    display: none;
+  }
 }

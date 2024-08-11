@@ -54,11 +54,14 @@ const Home = () => {
         <div className="quote-card">
           <p>{quote}</p>
           <button className="copy-btn" onClick={copyToClipboard}>
-            <i className={`fa-solid ${copied ? 'fa-check' : 'fa-copy'}`}></i> {copied ? 'Copied!' : 'Copy'}
+              <i className={`fa-solid ${copied ? 'fa-check' : 'fa-copy'}`}></i> 
+              <span> {copied ? 'Copied!' : 'Copy'}</span>
           </button>
           <button className="copy-btn" onClick={share}>
-            <i className="fa-solid fa-share-nodes"></i> Share
+              <i className="fa-solid fa-share-nodes"></i> 
+              <span> Share</span>
           </button>
+
         </div>
         <a className="button-icon-w" href="https://www.pixme.bio/davvzin">
           <i className="fa-solid fa-mug-hot icon-b"></i>

@@ -59,13 +59,13 @@ const TopQuotes = () => {
               className="copy-btn"
               onClick={() => copyToClipboard(quote)}
             >
-              <i className={`fa-solid ${copied === quote ? 'fa-check' : 'fa-copy'}`}></i> {copied === quote ? 'Copied!' : 'Copy'}
+              <i className={`fa-solid ${copied === quote ? 'fa-check' : 'fa-copy'}`}></i>   <span>{copied === quote ? 'Copied!' : 'Copy'}</span>
             </button>
             <button
               className="copy-btn"
               onClick={() => share(quote)}
             >
-              <i className="fa-solid fa-share-nodes"></i> Share
+              <i className="fa-solid fa-share-nodes"></i> <span> Share</span>  
             </button>
           </div>
         ))}
