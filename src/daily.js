@@ -8,7 +8,7 @@ const Daily = () => {
   const [copied, setCopied] = useState(false);
 
   const getDailyQuote = async () => {
-    const today = new Date().toISOString().split('T')[0]; // Obtém a data no formato YYYY-MM-DD
+    const today = new Date().toISOString().split('T')[0]; 
     const storedQuote = localStorage.getItem(`quote-${today}`);
 
     if (storedQuote) {
@@ -18,7 +18,7 @@ const Daily = () => {
         const quoteData = await fetchQuote();
         const quote = `${quoteData.text} - ${quoteData.author || 'Random'}`;
         setDailyQuote(quote);
-        localStorage.setItem(`quote-${today}`, quote); // Armazena a citação no localStorage
+        localStorage.setItem(`quote-${today}`, quote); 
       } catch (error) {
         console.error('Não foi possível carregar a citação diária.', error);
       }
@@ -42,15 +42,15 @@ const Daily = () => {
     getDailyQuote();
     calculateTimeLeft();
 
-    // Atualiza o contador a cada segundo
+    
     const timer = setInterval(() => {
       calculateTimeLeft();
     }, 1000);
 
-    // Atualiza a citação à meia-noite
+    
     const interval = setInterval(() => {
       getDailyQuote();
-    }, 24 * 60 * 60 * 1000); // Atualiza uma vez por dia
+    }, 24 * 60 * 60 * 1000); 
 
     return () => {
       clearInterval(timer);
