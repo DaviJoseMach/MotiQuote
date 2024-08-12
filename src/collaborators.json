@@ -1,0 +1,18 @@
+[
+    { "id": 1, "name": "davvzin o mago", "imageUrl": "https://pbs.twimg.com/profile_images/1819901562870718464/jqfCTdvI_400x400.jpg", "deviceType": "desktop-only" },
+    { "id": 2, "name": "brunildolu", "imageUrl": "https://i.pinimg.com/564x/ca/17/d2/ca17d20c0955351721d1bc41a7e459de.jpg", "deviceType": "desktop-only" },
+    { "id": 1, "name": "davvzin o mago", "imageUrl": "https://pbs.twimg.com/profile_images/1819901562870718464/jqfCTdvI_400x400.jpg", "deviceType": "mobile-only" },
+    { "id": 2, "name": "brunildolu", "imageUrl": "https://i.pinimg.com/564x/ca/17/d2/ca17d20c0955351721d1bc41a7e459de.jpg", "deviceType": "mobile-only" },
+    { "id": 5, "name": "vazio", "imageUrl": "https://i.pinimg.com/564x/75/21/b9/7521b93e072572cffd7a9d62f3c2f0b7.jpg", "deviceType": "desktop-only" },
+    { "id": 11, "name": "vazio", "imageUrl": "https://i.pinimg.com/564x/75/21/b9/7521b93e072572cffd7a9d62f3c2f0b7.jpg", "deviceType": "desktop-only" },
+    { "id": 12, "name": "vazio", "imageUrl": "https://i.pinimg.com/736x/4f/0f/02/4f0f02200d00fb5bdce68104648be379.jpg", "deviceType": "desktop-only" },
+    { "id": 16, "name": "vazio", "imageUrl": "https://i.pinimg.com/736x/4f/0f/02/4f0f02200d00fb5bdce68104648be379.jpg", "deviceType": "desktop-only" },
+    { "id": 17, "name": "vazio", "imageUrl": "https://i.pinimg.com/736x/3f/48/15/3f4815e19b6f738ca60c7632ba428028.jpg", "deviceType": "desktop-only" },
+    { "id": 18, "name": "vazio", "imageUrl": "https://i.pinimg.com/736x/4f/23/af/4f23af2791726ba57092073e1593112e.jpg", "deviceType": "desktop-only" },
+    { "id": 19, "name": "vazio", "imageUrl": "https://i.pinimg.com/736x/5d/2d/4b/5d2d4bc94e817a450b94e3d23b3e40af.jpg", "deviceType": "desktop-only" },
+    { "id": 20, "name": "vazio", "imageUrl": "https://i.pinimg.com/564x/89/ce/4d/89ce4d1ca8065a3e17594b733c6ff87c.jpg", "deviceType": "desktop-only" },
+    { "id": 21, "name": "vazio", "imageUrl": "https://i.pinimg.com/736x/e9/88/6c/e9886caea8d79329ddd361032a41bc16.jpg", "deviceType": "desktop-only" },
+    { "id": 22, "name": "vazio", "imageUrl": "https://i.pinimg.com/564x/37/8a/27/378a270e775265622393da8c0527417e.jpg", "deviceType": "desktop-only" },
+    { "id": 21, "name": "vazio", "imageUrl": "https://i.pinimg.com/736x/e9/88/6c/e9886caea8d79329ddd361032a41bc16.jpg", "deviceType": "mobile-only" },
+    { "id": 22, "name": "vazio", "imageUrl": "https://i.pinimg.com/564x/37/8a/27/378a270e775265622393da8c0527417e.jpg", "deviceType": "mobile-only" }
+]
