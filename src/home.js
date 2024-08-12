@@ -46,7 +46,7 @@ const Home = () => {
         const target = +counter.getAttribute('data-target');
         const current = +counter.innerText;
 
-        const increment = target / 400; 
+        const increment = target / 600; 
 
         if (current < target) {
           counter.innerText = Math.ceil(current + increment);
@@ -68,6 +68,9 @@ const Home = () => {
         </a>
         <Link className="button-icon" to="/top-quotes">
           <i className="fa-solid fa-fire icon-b"></i>
+        </Link>
+        <Link className="button-icon" to="/daily">
+        <i class="fa-solid fa-cloud-sun icon-b"></i>
         </Link>
       </div>
       <div className="content-wrapper">
