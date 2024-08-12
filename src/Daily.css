@@ -1,7 +1,7 @@
 h1{
     margin: 5px;
-    margin-bottom: 3px;
-    margin-left: 20px;
+    margin-bottom: 20px;
+    
 }
 .time{
     background-color: transparent;
@@ -11,5 +11,6 @@ h1{
 @media (max-width: 768px) {
     h1{
         margin-bottom: 40px;
+        margin-left: 20px;
     }
 }
