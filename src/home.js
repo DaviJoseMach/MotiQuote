@@ -89,7 +89,7 @@ const Home = () => {
         <a className="button-icon-w" href="https://www.pixme.bio/davvzin">
           <i className="fa-solid fa-mug-hot icon-b"></i>
           <span className="button-text">Buy me a drink</span>
-        </a> <br></br>
+        </a> <br></br><br></br><br></br>
       </div>
       <div className="counters-container">
         <div className="counter-card">
@@ -139,7 +139,7 @@ const Home = () => {
           ))}
         </div>
       </div> 
-      <br></br><br></br>
+      <br></br><br></br><br></br>
     </div>
   );
 };
