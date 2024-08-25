@@ -1,0 +1,934 @@
+[
+    {
+      "text": "The only way to do great work is to love what you do.",
+      "author": "Steve Jobs",
+      "language": "en"
+    },
+    {
+      "text": "Life is what happens when you're busy making other plans.",
+      "author": "John Lennon",
+      "language": "en"
+    },
+    {
+      "text": "The purpose of our lives is to be happy.",
+      "author": "Dalai Lama",
+      "language": "en"
+    },
+    {
+      "text": "Get busy living or get busy dying.",
+      "author": "Stephen King",
+      "language": "en"
+    },
+    {
+      "text": "You only live once, but if you do it right, once is enough.",
+      "author": "Mae West",
+      "language": "en"
+    },
+    {
+      "text": "The best way to predict the future is to invent it.",
+      "author": "Alan Kay",
+      "language": "en"
+    },
+    {
+      "text": "In the end, we will remember not the words of our enemies, but the silence of our friends.",
+      "author": "Martin Luther King Jr.",
+      "language": "en"
+    },
+    {
+      "text": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
+      "author": "Ralph Waldo Emerson",
+      "language": "en"
+    },
+    {
+      "text": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+      "author": "Nelson Mandela",
+      "language": "en"
+    },
+    {
+      "text": "You miss 100% of the shots you don’t take.",
+      "author": "Wayne Gretzky",
+      "language": "en"
+    },
+    {
+      "text": "Life is really simple, but we insist on making it complicated.",
+      "author": "Confucius",
+      "language": "en"
+    },
+    {
+      "text": "The unexamined life is not worth living.",
+      "author": "Socrates",
+      "language": "en"
+    },
+    {
+      "text": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
+      "author": "Ralph Waldo Emerson",
+      "language": "en"
+    },
+    {
+      "text": "It does not do to dwell on dreams and forget to live.",
+      "author": "J.K. Rowling",
+      "language": "en"
+    },
+    {
+      "text": "The only impossible journey is the one you never begin.",
+      "author": "Tony Robbins",
+      "language": "en"
+    },
+    {
+      "text": "Act as if what you do makes a difference. It does.",
+      "author": "William James",
+      "language": "en"
+    },
+    {
+      "text": "You only live once, but if you do it right, once is enough.",
+      "author": "Mae West",
+      "language": "en"
+    },
+    {
+      "text": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+      "author": "Nelson Mandela",
+      "language": "en"
+    },
+    {
+      "text": "Life is short, and it is up to you to make it sweet.",
+      "author": "Sarah Louise Delany",
+      "language": "en"
+    },
+    {
+      "text": "To live is the rarest thing in the world. Most people exist, that is all.",
+      "author": "Oscar Wilde",
+      "language": "en"
+    },
+    {
+      "text": "In three words I can sum up everything I've learned about life: it goes on.",
+      "author": "Robert Frost",
+      "language": "en"
+    },
+    {
+      "text": "You get in life what you have the courage to ask for.",
+      "author": "Oprah Winfrey",
+      "language": "en"
+    },
+    {
+      "text": "The best revenge is massive success.",
+      "author": "Frank Sinatra",
+      "language": "en"
+    },
+    {
+      "text": "Life is 10% what happens to us and 90% how we react to it.",
+      "author": "Charles R. Swindoll",
+      "language": "en"
+    },
+    {
+      "text": "The only limit to our realization of tomorrow is our doubts of today.",
+      "author": "Franklin D. Roosevelt",
+      "language": "en"
+    },
+    {
+      "text": "The future belongs to those who believe in the beauty of their dreams.",
+      "author": "Eleanor Roosevelt",
+      "language": "en"
+    },
+    {
+      "text": "The best way to find yourself is to lose yourself in the service of others.",
+      "author": "Mahatma Gandhi",
+      "language": "en"
+    },
+    {
+      "text": "Do not wait to strike till the iron is hot, but make it hot by striking.",
+      "author": "William Butler Yeats",
+      "language": "en"
+    },
+    {
+      "text": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+      "author": "Ralph Waldo Emerson",
+      "language": "en"
+    },
+    {
+      "text": "Believe you can and you're halfway there.",
+      "author": "Theodore Roosevelt",
+      "language": "en"
+    },
+    {
+      "text": "Everything you’ve ever wanted is on the other side of fear.",
+      "author": "George Addair",
+      "language": "en"
+    },
+    {
+      "text": "The only limit to our realization of tomorrow is our doubts of today.",
+      "author": "Franklin D. Roosevelt",
+      "language": "en"
+    },
+    {
+      "text": "We may encounter many defeats but we must not be defeated.",
+      "author": "Maya Angelou",
+      "language": "en"
+    },
+    {
+      "text": "To live a creative life, we must lose our fear of being wrong.",
+      "author": "Joseph Chilton Pearce",
+      "language": "en"
+    },
+    {
+      "text": "The way to get started is to quit talking and begin doing.",
+      "author": "Walt Disney",
+      "language": "en"
+    },
+    {
+      "text": "Success usually comes to those who are too busy to be looking for it.",
+      "author": "Henry David Thoreau",
+      "language": "en"
+    },
+    {
+      "text": "Don't watch the clock; do what it does. Keep going.",
+      "author": "Sam Levenson",
+      "language": "en"
+    },
+    {
+      "text": "If you want to lift yourself up, lift up someone else.",
+      "author": "Booker T. Washington",
+      "language": "en"
+    },
+    {
+      "text": "The best way out is always through.",
+      "author": "Robert Frost",
+      "language": "en"
+    },
+    {
+      "text": "The only thing standing between you and your goal is the story you keep telling yourself as to why you can’t achieve it.",
+      "author": "Jordan Belfort",
+      "language": "en"
+    },
+    {
+      "text": "The only place where success comes before work is in the dictionary.",
+      "author": "Vidal Sassoon",
+      "language": "en"
+    },
+    {
+      "text": "Your time is limited, don't waste it living someone else's life.",
+      "author": "Steve Jobs",
+      "language": "en"
+    },
+    {
+      "text": "You must be the change you wish to see in the world.",
+      "author": "Mahatma Gandhi",
+      "language": "en"
+    },
+    {
+      "text": "The only person you are destined to become is the person you decide to be.",
+      "author": "Ralph Waldo Emerson",
+      "language": "en"
+    },
+    {
+      "text": "The best way to predict your future is to create it.",
+      "author": "Peter Drucker",
+      "language": "en"
+    },
+    {
+      "text": "Happiness is not something ready made. It comes from your own actions.",
+      "author": "Dalai Lama",
+      "language": "en"
+    },
+    {
+      "text": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+      "author": "Winston Churchill",
+      "language": "en"
+    },
+    {
+      "text": "The only limit to our realization of tomorrow is our doubts of today.",
+      "author": "Franklin D. Roosevelt",
+      "language": "en"
+    },
+    {
+      "text": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+      "author": "Winston Churchill",
+      "language": "en"
+    },
+    {
+      "text": "Life is what happens when you're busy making other plans.",
+      "author": "John Lennon",
+      "language": "en"
+    },
+    {
+      "text": "Do not wait to strike till the iron is hot, but make it hot by striking.",
+      "author": "William Butler Yeats",
+      "language": "en"
+    },
+    {
+      "text": "It does not do to dwell on dreams and forget to live.",
+      "author": "J.K. Rowling",
+      "language": "en"
+    },
+    {
+      "text": "Act as if what you do makes a difference. It does.",
+      "author": "William James",
+      "language": "en"
+    },
+    {
+      "text": "You get in life what you have the courage to ask for.",
+      "author": "Oprah Winfrey",
+      "language": "en"
+    },
+    {
+      "text": "The best revenge is massive success.",
+      "author": "Frank Sinatra",
+      "language": "en"
+    },
+    {
+      "text": "You miss 100% of the shots you don’t take.",
+      "author": "Wayne Gretzky",
+      "language": "en"
+    },
+    {
+      "text": "Life is 10% what happens to us and 90% how we react to it.",
+      "author": "Charles R. Swindoll",
+      "language": "en"
+    },
+    {
+      "text": "The future belongs to those who believe in the beauty of their dreams.",
+      "author": "Eleanor Roosevelt",
+      "language": "en"
+    },
+    {
+      "text": "The best way to find yourself is to lose yourself in the service of others.",
+      "author": "Mahatma Gandhi",
+      "language": "en"
+    },
+    {
+      "text": "The only limit to our realization of tomorrow is our doubts of today.",
+      "author": "Franklin D. Roosevelt",
+      "language": "en"
+    },
+    {
+      "text": "The only thing standing between you and your goal is the story you keep telling yourself as to why you can’t achieve it.",
+      "author": "Jordan Belfort",
+      "language": "en"
+    },
+    {
+      "text": "The best revenge is massive success.",
+      "author": "Frank Sinatra",
+      "language": "en"
+    },
+    {
+      "text": "Success usually comes to those who are too busy to be looking for it.",
+      "author": "Henry David Thoreau",
+      "language": "en"
+    },
+    {
+      "text": "The only way to do great work is to love what you do.",
+      "author": "Steve Jobs",
+      "language": "en"
+    },
+    {
+      "text": "In three words I can sum up everything I've learned about life: it goes on.",
+      "author": "Robert Frost",
+      "language": "en"
+    },
+    {
+      "text": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+      "author": "Ralph Waldo Emerson",
+      "language": "en"
+    },
+    {
+      "text": "The way to get started is to quit talking and begin doing.",
+      "author": "Walt Disney",
+      "language": "en"
+    },
+    {
+      "text": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+      "author": "Winston Churchill",
+      "language": "en"
+    },
+    {
+      "text": "Happiness is not something ready made. It comes from your own actions.",
+      "author": "Dalai Lama",
+      "language": "en"
+    },
+    {
+      "text": "The only place where success comes before work is in the dictionary.",
+      "author": "Vidal Sassoon",
+      "language": "en"
+    },
+    {
+      "text": "The only person you are destined to become is the person you decide to be.",
+      "author": "Ralph Waldo Emerson",
+      "language": "en"
+    },
+    {
+      "text": "The best way to predict the future is to create it.",
+      "author": "Peter Drucker",
+      "language": "en"
+    },
+    {
+      "text": "Life is really simple, but we insist on making it complicated.",
+      "author": "Confucius",
+      "language": "en"
+    },
+    {
+      "text": "The only thing standing between you and your goal is the story you keep telling yourself as to why you can’t achieve it.",
+      "author": "Jordan Belfort",
+      "language": "en"
+    },
+    {
+      "text": "The future belongs to those who believe in the beauty of their dreams.",
+      "author": "Eleanor Roosevelt",
+      "language": "en"
+    },
+    {
+      "text": "The best way out is always through.",
+      "author": "Robert Frost",
+      "language": "en"
+    },
+    {
+      "text": "You miss 100% of the shots you don’t take.",
+      "author": "Wayne Gretzky",
+      "language": "en"
+    },
+    {
+      "text": "Life is 10% what happens to us and 90% how we react to it.",
+      "author": "Charles R. Swindoll",
+      "language": "en"
+    },
+    {
+      "text": "Success usually comes to those who are too busy to be looking for it.",
+      "author": "Henry David Thoreau",
+      "language": "en"
+    },
+    {
+      "text": "The only limit to our realization of tomorrow is our doubts of today.",
+      "author": "Franklin D. Roosevelt",
+      "language": "en"
+    },
+    {
+      "text": "Act as if what you do makes a difference. It does.",
+      "author": "William James",
+      "language": "en"
+    },
+    {
+      "text": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
+      "author": "Ralph Waldo Emerson",
+      "language": "en"
+    },
+    {
+      "text": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+      "author": "Nelson Mandela",
+      "language": "en"
+    },
+    {
+      "text": "The only limit to our realization of tomorrow is our doubts of today.",
+      "author": "Franklin D. Roosevelt",
+      "language": "en"
+    },
+    {
+      "text": "The way to get started is to quit talking and begin doing.",
+      "author": "Walt Disney",
+      "language": "en"
+    },
+    {
+      "text": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+      "author": "Ralph Waldo Emerson",
+      "language": "en"
+    }, 
+    {
+    "text": "A única maneira de fazer um excelente trabalho é amar o que você faz.",
+    "author": "Steve Jobs",
+    "language": "pt"
+  },
+  {
+    "text": "A vida é o que acontece enquanto você está ocupado fazendo outros planos.",
+    "author": "John Lennon",
+    "language": "pt"
+  },
+  {
+    "text": "O propósito de nossas vidas é ser feliz.",
+    "author": "Dalai Lama",
+    "language": "pt"
+  },
+  {
+    "text": "Ou você se ocupa em viver ou se ocupa em morrer.",
+    "author": "Stephen King",
+    "language": "pt"
+  },
+  {
+    "text": "Você só vive uma vez, mas se você fizer direito, uma vez é o suficiente.",
+    "author": "Mae West",
+    "language": "pt"
+  },
+  {
+    "text": "A melhor maneira de prever o futuro é inventá-lo.",
+    "author": "Alan Kay",
+    "language": "pt"
+  },
+  {
+    "text": "No final, não lembraremos das palavras de nossos inimigos, mas do silêncio de nossos amigos.",
+    "author": "Martin Luther King Jr.",
+    "language": "pt"
+  },
+  {
+    "text": "Ser você mesmo em um mundo que está tentando constantemente fazer de você algo diferente é a maior realização.",
+    "author": "Ralph Waldo Emerson",
+    "language": "pt"
+  },
+  {
+    "text": "A maior glória na vida não está em nunca cair, mas em levantar-se a cada vez que caímos.",
+    "author": "Nelson Mandela",
+    "language": "pt"
+  },
+  {
+    "text": "Você perde 100% dos tiros que não dá.",
+    "author": "Wayne Gretzky",
+    "language": "pt"
+  },
+  {
+    "text": "A vida é realmente simples, mas insistimos em torná-la complicada.",
+    "author": "Confúcio",
+    "language": "pt"
+  },
+  {
+    "text": "A vida não examinada não vale a pena ser vivida.",
+    "author": "Sócrates",
+    "language": "pt"
+  },
+  {
+    "text": "Não adianta ficar sonhando e esquecer de viver.",
+    "author": "J.K. Rowling",
+    "language": "pt"
+  },
+  {
+    "text": "A única jornada impossível é aquela que você nunca começa.",
+    "author": "Tony Robbins",
+    "language": "pt"
+  },
+  {
+    "text": "Aja como se o que você faz faz a diferença. Faz.",
+    "author": "William James",
+    "language": "pt"
+  },
+  {
+    "text": "A vida é curta, e cabe a você torná-la doce.",
+    "author": "Sarah Louise Delany",
+    "language": "pt"
+  },
+  {
+    "text": "Viver é o mais raro de todos os fenômenos. A maioria das pessoas existe, isso é tudo.",
+    "author": "Oscar Wilde",
+    "language": "pt"
+  },
+  {
+    "text": "Em três palavras posso resumir tudo o que aprendi sobre a vida: ela continua.",
+    "author": "Robert Frost",
+    "language": "pt"
+  },
+  {
+    "text": "A vida não é medida pelo número de vezes que respiramos, mas pelos momentos que nos tiram o fôlego.",
+    "author": "Desconhecido",
+    "language": "pt"
+  },
+  {
+    "text": "A única coisa que temos que temer é o próprio medo.",
+    "author": "Franklin D. Roosevelt",
+    "language": "pt"
+  },
+  {
+    "text": "Tudo o que você pode fazer é o melhor que você pode fazer.",
+    "author": "Desconhecido",
+    "language": "pt"
+  },
+  {
+    "text": "Se você quer algo que nunca teve, precisa fazer algo que nunca fez.",
+    "author": "Desconhecido",
+    "language": "pt"
+  },
+  {
+    "text": "Não conte os dias, faça os dias contarem.",
+    "author": "Muhammad Ali",
+    "language": "pt"
+  },
+  {
+    "text": "A única limitação que você tem é aquela que você impõe a si mesmo.",
+    "author": "Desconhecido",
+    "language": "pt"
+  },
+  {
+    "text": "O sucesso é a soma de pequenos esforços repetidos dia após dia.",
+    "author": "Robert Collier",
+    "language": "pt"
+  },
+  {
+    "text": "A felicidade não é algo pronto. Ela vem das suas próprias ações.",
+    "author": "Dalai Lama",
+    "language": "pt"
+  },
+  {
+    "text": "Os desafios são o que fazem a vida interessante e superá-los é o que dá sentido à vida.",
+    "author": "Joshua J. Marine",
+    "language": "pt"
+  },
+  {
+    "text": "A vida é como andar de bicicleta. Para manter o equilíbrio, você deve continuar em movimento.",
+    "author": "Albert Einstein",
+    "language": "pt"
+  },
+  {
+    "text": "Acredite que você pode e você já está no meio do caminho.",
+    "author": "Theodore Roosevelt",
+    "language": "pt"
+  },
+  {
+    "text": "Você nunca pode atravessar o oceano até ter a coragem de perder de vista a costa.",
+    "author": "Cristóvão Colombo",
+    "language": "pt"
+  },
+  {
+    "text": "O único modo de fazer um ótimo trabalho é amar o que você faz.",
+    "author": "Steve Jobs",
+    "language": "pt"
+  },
+  {
+    "text": "A vida é 10% o que acontece com você e 90% como você reage a isso.",
+    "author": "Charles R. Swindoll",
+    "language": "pt"
+  },
+  {
+    "text": "O único verdadeiro erro é aquele do qual não aprendemos nada.",
+    "author": "Henry Ford",
+    "language": "pt"
+  },
+  {
+    "text": "Se você quer ser feliz, não fique esperando que os outros o façam feliz.",
+    "author": "Desconhecido",
+    "language": "pt"
+  },
+  {
+    "text": "A vida não é sobre encontrar a si mesmo. É sobre criar a si mesmo.",
+    "author": "George Bernard Shaw",
+    "language": "pt"
+  },
+  {
+    "text": "Ninguém pode voltar e começar um novo começo, mas qualquer um pode começar hoje e fazer um novo fim.",
+    "author": "Desconhecido",
+    "language": "pt"
+  },
+  {
+    "text": "Não importa quantos passos você deu para trás, o que importa é quantos passos você vai dar para frente.",
+    "author": "Desconhecido",
+    "language": "pt"
+  },
+  {
+    "text": "Você é o que você faz, não o que você diz que vai fazer.",
+    "author": "Carl Jung",
+    "language": "pt"
+  },
+  {
+    "text": "O futuro pertence àqueles que acreditam na beleza de seus sonhos.",
+    "author": "Eleanor Roosevelt",
+    "language": "pt"
+  },
+  {
+    "text": "Não se preocupe com os fracassos; preocupe-se com as chances que você perde quando nem sequer tenta.",
+    "author": "Jack Canfield",
+    "language": "pt"
+  },
+  {
+    "text": "A vida é uma aventura ousada ou não é nada.",
+    "author": "Helen Keller",
+    "language": "pt"
+  },
+  {
+    "text": "Você nunca encontrará um arco-íris se estiver olhando para baixo.",
+    "author": "Charlie Chaplin",
+    "language": "pt"
+  },
+  {
+    "text": "A vida é uma jornada, não um destino.",
+    "author": "Ralph Waldo Emerson",
+    "language": "pt"
+  },
+  {
+    "text": "O sucesso é a habilidade de ir de fracasso em fracasso sem perder o entusiasmo.",
+    "author": "Winston Churchill",
+    "language": "pt"
+  },
+  {
+    "text": "Não tenha medo de desistir do bom para buscar o ótimo.",
+    "author": "John D. Rockefeller",
+    "language": "pt"
+  },
+  {
+    "text": "Tudo que você sempre quis está do outro lado do medo.",
+    "author": "George Addair",
+    "language": "pt"
+  },
+  {
+    "text": "O tempo é a coisa mais valiosa que uma pessoa pode gastar.",
+    "author": "Teócrito",
+    "language": "pt"
+  },
+  {
+    "text": "Cada dia é uma nova chance para mudar sua vida.",
+    "author": "Desconhecido",
+    "language": "pt"
+  },
+  {
+    "text": "Sonhe grande e se atreva a falhar.",
+    "author": "Norman Vaughan",
+    "language": "pt"
+  },
+  {
+    "text": "Você não pode mudar seu passado, mas pode estragar seu presente preocupando-se com ele.",
+    "author": "Desconhecido",
+    "language": "pt"
+  },
+  {
+    "text": "A única limitação de nossos resultados são os limites de nossas crenças.",
+    "author": "Desconhecido",
+    "language": "pt"
+  },
+  {
+    "text": "Mantenha seus sonhos vivos. Com a coragem, a determinação e o trabalho árduo, você pode transformar suas ideias em realidade.",
+    "author": "Desconhecido",
+    "language": "pt"
+  },
+  {
+    "text": "A felicidade é uma direção, não um destino.",
+    "author": "Desconhecido",
+    "language": "pt"
+  },
+  {
+    "text": "Nossas maiores glórias não estão em nunca cair, mas em nos levantarmos toda vez que caímos.",
+    "author": "Confúcio",
+    "language": "pt"
+  },
+  {
+    "text": "A vida é uma peça de teatro que não permite ensaios.",
+    "author": "Charles Chaplin",
+    "language": "pt"
+  },
+  {
+    "text": "A única forma de alcançar o impossível é acreditar que é possível.",
+    "author": "Charles Kingsleigh",
+    "language": "pt"
+  },
+  {
+    "text": "A vida é como um espelho. Ela te sorri se você sorrir.",
+    "author": "Desconhecido",
+    "language": "pt"
+  },
+  {
+    "text": "O segredo para seguir em frente é começar.",
+    "author": "Mark Twain",
+    "language": "pt"
+  },
+  {
+    "text": "A vida é uma aventura ousada ou não é nada.",
+    "author": "Helen Keller",
+    "language": "pt"
+  },
+  {
+    "text": "Tudo o que você precisa já está dentro de você.",
+    "author": "Desconhecido",
+    "language": "pt"
+  },
+  {
+    "text": "Se você quer algo que nunca teve, precisa fazer algo que nunca fez.",
+    "author": "Desconhecido",
+    "language": "pt"
+  },
+  {
+    "text": "Você deve ser a mudança que deseja ver no mundo.",
+    "author": "Mahatma Gandhi",
+    "language": "pt"
+  },
+  {
+    "text": "O verdadeiro fracasso não está em nunca cair, mas em não se levantar após cair.",
+    "author": "Desconhecido",
+    "language": "pt"
+  },
+  {
+    "text": "Toda mudança é difícil no começo, caótica no meio e linda no final.",
+    "author": "Desconhecido",
+    "language": "pt"
+  },
+  {
+    "text": "O sucesso não é a chave para a felicidade. A felicidade é a chave para o sucesso.",
+    "author": "Albert Schweitzer",
+    "language": "pt"
+  },
+  {
+    "text": "Seja a mudança que você quer ver no mundo.",
+    "author": "Mahatma Gandhi",
+    "language": "pt"
+  },
+  {
+    "text": "A vida é como uma câmera. Foque no que é importante, capture os bons momentos, desenvolva a partir dos negativos e, se as coisas não saírem como esperado, tire outra foto.",
+    "author": "Desconhecido",
+    "language": "pt"
+  },
+  {
+    "text": "Você nunca sabe o quão forte você é até que ser forte seja sua única opção.",
+    "author": "Desconhecido",
+    "language": "pt"
+  },
+  {
+    "text": "Você não pode mudar seu passado, mas pode estragar seu presente preocupando-se com ele.",
+    "author": "Desconhecido",
+    "language": "pt"
+  },
+  {
+    "text": "A vida é um desafio, enfrente-a!",
+    "author": "Desconhecido",
+    "language": "pt"
+  },
+  {
+    "text": "Nunca é tarde demais para ser o que você poderia ter sido.",
+    "author": "George Eliot",
+    "language": "pt"
+  },
+  {
+    "text": "Acredite em si mesmo e em tudo o que você é.",
+    "author": "Desconhecido",
+    "language": "pt"
+  },
+  {
+    "text": "Faça hoje o que outros não querem para que amanhã você possa fazer o que outros não podem.",
+    "author": "Desconhecido",
+    "language": "pt"
+  },
+  {
+    "text": "Não importa quão devagar você vá, desde que você não pare.",
+    "author": "Confúcio",
+    "language": "pt"
+  },
+  {
+    "text": "O futuro pertence àqueles que acreditam na beleza de seus sonhos.",
+    "author": "Eleanor Roosevelt",
+    "language": "pt"
+  },
+  {
+    "text": "A maior glória não está em nunca cair, mas em se levantar a cada queda.",
+    "author": "Nelson Mandela",
+    "language": "pt"
+  },
+  {
+    "text": "O sucesso é ir de fracasso em fracasso sem perder o entusiasmo.",
+    "author": "Winston Churchill",
+    "language": "pt"
+  },
+  {
+    "text": "Você deve fazer as coisas que acha que não pode fazer.",
+    "author": "Eleanor Roosevelt",
+    "language": "pt"
+  },
+  {
+    "text": "Viva a vida que você imaginou.",
+    "author": "Henry James",
+    "language": "pt"
+  },
+  {
+    "text": "A vida é uma aventura ousada ou não é nada.",
+    "author": "Helen Keller",
+    "language": "pt"
+  },
+  {
+    "text": "Faça da sua vida um sonho, e de um sonho, uma realidade.",
+    "author": "Antoine de Saint-Exupéry",
+    "language": "pt"
+  },
+  {
+    "text": "A vida é como andar de bicicleta. Para manter o equilíbrio, você deve continuar em movimento.",
+    "author": "Albert Einstein",
+    "language": "pt"
+  },
+  {
+    "text": "A vida é uma sucessão de momentos e cada um deles é uma oportunidade para crescer.",
+    "author": "Desconhecido",
+    "language": "pt"
+  },
+  {
+    "text": "A maior glória na vida não está em nunca cair, mas em levantar-se toda vez que caímos.",
+    "author": "Confúcio",
+    "language": "pt"
+  },
+  {
+    "text": "Se você quer algo que nunca teve, precisa fazer algo que nunca fez.",
+    "author": "Desconhecido",
+    "language": "pt"
+  },
+  {
+    "text": "Não espere. O tempo nunca será o certo.",
+    "author": "Napoleon Hill",
+    "language": "pt"
+  },
+  {
+    "text": "A única coisa que interfere com meu aprendizado é a minha educação.",
+    "author": "Albert Einstein",
+    "language": "pt"
+  },
+  {
+    "text": "A vida é um grande livro, e quem não viaja lê apenas uma página.",
+    "author": "Desconhecido",
+    "language": "pt"
+  },
+  {
+    "text": "Você não pode esperar uma vida perfeita para começar a viver.",
+    "author": "Desconhecido",
+    "language": "pt"
+  },
+  {
+    "text": "Toda jornada começa com um único passo.",
+    "author": "Lao Tzu",
+    "language": "pt"
+  },
+  {
+    "text": "A vida é muito curta para não viver plenamente.",
+    "author": "Desconhecido",
+    "language": "pt"
+  },
+  {
+    "text": "A única coisa que você pode controlar é a sua atitude.",
+    "author": "Desconhecido",
+    "language": "pt"
+  },
+  {
+    "text": "A persistência é o caminho do êxito.",
+    "author": "Charles Chaplin",
+    "language": "pt"
+  },
+  {
+    "text": "Se você quer alcançar a grandeza, pare de pedir permissão.",
+    "author": "Desconhecido",
+    "language": "pt"
+  },
+  {
+    "text": "A vida é uma série de mudanças naturais e espontâneas.",
+    "author": "Desconhecido",
+    "language": "pt"
+  },
+  {
+    "text": "O maior erro que você pode cometer é ter medo de cometer erros.",
+    "author": "Desconhecido",
+    "language": "pt"
+  },
+  {
+    "text": "O sucesso é a soma de pequenos esforços repetidos dia após dia.",
+    "author": "Robert Collier",
+    "language": "pt"
+  },
+  {
+    "text": "A vida não é sobre encontrar a si mesmo. É sobre criar a si mesmo.",
+    "author": "George Bernard Shaw",
+    "language": "pt"
+  },
+  {
+    "text": "Não desista. Normalmente é a última chave no chaveiro que abre a fechadura.",
+    "author": "Desconhecido",
+    "language": "pt"
+  },
+  {
+    "text": "A vida é uma aventura ousada ou não é nada.",
+    "author": "Helen Keller",
+    "language": "pt"
+  }
+]
+
+  

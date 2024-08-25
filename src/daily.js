@@ -1,24 +1,27 @@
 import React, { useState, useEffect } from 'react';
-import { fetchQuote } from './quoteService';
 import { Link } from 'react-router-dom';
 import './Daily.css';
+import quotesData from './quotes.json';
+
 const Daily = () => {
   const [dailyQuote, setDailyQuote] = useState('');
   const [timeLeft, setTimeLeft] = useState('');
   const [copied, setCopied] = useState(false);
 
-  const getDailyQuote = async () => {
-    const today = new Date().toISOString().split('T')[0]; 
+  const getDailyQuote = () => {
+    const today = new Date().toISOString().split('T')[0];
     const storedQuote = localStorage.getItem(`quote-${today}`);
 
     if (storedQuote) {
       setDailyQuote(storedQuote);
     } else {
       try {
-        const quoteData = await fetchQuote();
-        const quote = `${quoteData.text} - ${quoteData.author || 'Random'}`;
+        const englishQuotes = quotesData.filter(quote => quote.language === 'en');
+        const randomQuote = englishQuotes[Math.floor(Math.random() * englishQuotes.length)];
+        const quote = `${randomQuote.text} - ${randomQuote.author || 'Unknown'}`;
+
         setDailyQuote(quote);
-        localStorage.setItem(`quote-${today}`, quote); 
+        localStorage.setItem(`quote-${today}`, quote);
       } catch (error) {
         console.error('Não foi possível carregar a citação diária.', error);
       }
@@ -42,15 +45,13 @@ const Daily = () => {
     getDailyQuote();
     calculateTimeLeft();
 
-    
     const timer = setInterval(() => {
       calculateTimeLeft();
     }, 1000);
 
-    
     const interval = setInterval(() => {
       getDailyQuote();
-    }, 24 * 60 * 60 * 1000); 
+    }, 24 * 60 * 60 * 1000);
 
     return () => {
       clearInterval(timer);
@@ -82,7 +83,7 @@ const Daily = () => {
           <i className="fa-solid fa-backward icon-b"></i>
         </Link>
       </div>
-      <h1> <b>‎Daily</b> Motivation</h1>
+      <h1><b>‎Daily</b> Motivation</h1>
       <div className="quote-card">
         <p>{dailyQuote}</p>
         <button className="copy-btn" onClick={copyToClipboard}>
@@ -91,11 +92,12 @@ const Daily = () => {
         <button className="copy-btn" onClick={share}>
           <i className="fa-solid fa-share-nodes"></i> <span>Share</span>
         </button>
-      </div> <br></br>
-      <center><p className="time-left">Next update in: <b className='time'> {timeLeft}</b></p></center>
-      
+      </div>
+      <br></br>
+      <center>
+        <p className="time-left">Next update in: <b className='time'> {timeLeft}</b></p>
+      </center>
     </div>
-    
   );
 };
 

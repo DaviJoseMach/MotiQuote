@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { fetchQuote } from './quoteService';
+import quotesData from './quotes.json'; // Importa o JSON com as citações
 import './App.css';
 import './Collaborators.css';
 import collaboratorsData from './collaborators.json';
@@ -9,15 +9,19 @@ const Home = () => {
   const [quote, setQuote] = useState('');
   const [copied, setCopied] = useState(false);
 
-  const getQuote = async () => {
-    try {
-      const quoteData = await fetchQuote();
-      const newQuote = quoteData.text + ' - ' + (quoteData.author || 'Random');
-      setQuote(newQuote);
-      setCopied(false);
-    } catch (error) {
-      setQuote('Não foi possível carregar a citação.');
+  // Função para pegar uma citação aleatória em inglês do JSON
+  const getQuote = () => {
+    // Filtra as citações para pegar apenas as em inglês
+    const englishQuotes = quotesData.filter(quote => quote.language === 'en');
+    if (englishQuotes.length === 0) {
+      setQuote('No quotes available in English.');
+      return;
     }
+    const randomIndex = Math.floor(Math.random() * englishQuotes.length);
+    const quoteData = englishQuotes[randomIndex];
+    const newQuote = `${quoteData.text} - ${quoteData.author || 'Random'}`;
+    setQuote(newQuote);
+    setCopied(false);
   };
 
   useEffect(() => {
@@ -31,7 +35,7 @@ const Home = () => {
   };
 
   const share = () => {
-    const tweetText = encodeURIComponent(`✨ Aqui está uma citação inspiradora para iluminar seu dia: "${quote}" 🌟 Veja mais em:`);  
+    const tweetText = encodeURIComponent(`✨ Here is an inspiring quote to brighten your day: "${quote}" 🌟 Veja mais em:`);  
     const tweetUrl = encodeURIComponent("https://motiquote.vercel.app/");
     const twitterUrl = `https://twitter.com/intent/tweet?text=${tweetText}&url=${tweetUrl}`;
 
@@ -70,7 +74,7 @@ const Home = () => {
           <i className="fa-solid fa-fire icon-b"></i>
         </Link>
         <Link className="button-icon" to="/daily">
-        <i class="fa-solid fa-cloud-sun icon-b"></i>
+          <i className="fa-solid fa-cloud-sun icon-b"></i>
         </Link>
       </div>
       <div className="content-wrapper">
