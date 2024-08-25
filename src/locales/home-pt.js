@@ -100,7 +100,7 @@ const HomePt = () => {
         </div>
         <a className="button-icon-w" href="https://www.pixme.bio/davvzin">
           <i className="fa-solid fa-mug-hot icon-b"></i>
-          <span className="button-text">Me compre uma bebida</span>
+          <span className="button-text">Me pague um Café</span>
         </a> <br></br><br></br><br></br>
       </div>
       <div className="counters-container">
