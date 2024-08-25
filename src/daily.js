@@ -84,6 +84,7 @@ const Daily = () => {
         </Link>
       </div>
       <h1><b>‎Daily</b> Motivation</h1>
+      <p className='each'>Each person has a daily motivation, this is yours, share and exchange motivations</p>
       <div className="quote-card">
         <p>{dailyQuote}</p>
         <button className="copy-btn" onClick={copyToClipboard}>

@@ -264,6 +264,11 @@ b {
   font-style: italic;
 }
 
+.each{
+  max-width: 3000px;
+  color: #2c2c2c77;
+  font-size: 20px;
+}
 @media (max-width: 768px) {
   .quote-card {
     max-width: 100%; /* Ocupa toda a largura da tela em dispositivos menores */
