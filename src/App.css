@@ -46,17 +46,56 @@ b {
   border: 1px solid rgb(199, 199, 199);
   display: flex;
   align-items: center;
-  gap: 20px;
-  justify-content: center;
+  justify-content: space-between; /* Distribui o espaço entre os itens */
   box-shadow: 0 4px 8px rgba(59, 59, 59, 0.007);
   z-index: 1000;
+  padding: 0 20px; /* Adiciona um padding interno para espaçamento */
+}
+
+.navbar-center {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Espaçamento entre os itens centralizados */
+  margin-left: 480px;
+}
+
+.icon-b, .icon-2 {
+  text-decoration: none;
+  font-size: 28px;
+  transition: color 0.5s;
 }
 
 .icon-b {
-  text-decoration: none;
   color: #7115da;
-  font-size: 28px;
-  transition: color 0.5s;
+}
+
+.icon-2 {
+  color: #277409;
+}
+
+.button-icon-2:hover {
+  background-color: #1549da;
+  color: white;
+}
+
+.button-icon-2:hover .icon-2 {
+  color: white;
+}
+
+.button-icon-2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 40px;
+  background-color: #ffffff00;
+  color: white;
+  border-radius: 20px;
+  border: 1px solid #d6d6d6;
+  text-decoration: none;
+  font-size: 1.5rem;
+  box-shadow: 0 4px 8px rgba(128, 128, 128, 0.2);
+  transition: background-color 0.5s, color 0.5s;
 }
 
 .button-icon {
@@ -83,6 +122,7 @@ b {
 .button-icon:hover .icon-b {
   color: white;
 }
+
 
 .content-wrapper {
   display: flex;
@@ -253,4 +293,58 @@ b {
     flex: 1 1 100%; /* Fazer com que cada item ocupe 100% da largura */
     max-width: 90%; /* Adicionar limite de largura para evitar que os itens fiquem muito largos */
   }
+  .navbar {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 90%;
+    height: 60px;
+    background-color: #ffffff00;
+    border-radius: 0 0 20px 20px;
+    transform: translateX(-50%);
+    border: 1px solid rgb(199, 199, 199);
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribui o espaço entre os itens */
+    box-shadow: 0 4px 8px rgba(59, 59, 59, 0.007);
+    z-index: 1000;
+    padding: 0 20px; /* Adiciona um padding interno para espaçamento */
+  }
+  .navbar-center {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaçamento entre os itens centralizados */
+    margin-left: 0px;
+  }
+  .button-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 40px;
+    background-color: #ffffff00;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid #d6d6d6;
+    text-decoration: none;
+    font-size: 1.5rem;
+    box-shadow: 0 4px 8px rgba(128, 128, 128, 0.2);
+    transition: background-color 0.5s, color 0.5s;
+  }
+  .button-icon-2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 40px;
+    background-color: #ffffff00;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid #d6d6d6;
+    text-decoration: none;
+    font-size: 1.5rem;
+    box-shadow: 0 4px 8px rgba(128, 128, 128, 0.2);
+    transition: background-color 0.5s, color 0.5s;
+  }
+  
 }

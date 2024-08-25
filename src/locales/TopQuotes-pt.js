@@ -1,19 +1,20 @@
+// src/pages/TopQuotes.js
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import './TopQuotes.css';
-import quotesData from './quotes.json'; // Importa o JSON contendo as citações
+import '../TopQuotes.css'; // Caminho ajustado
+import quotesData from '../quotes.json'; // Caminho ajustado
 
 const TopQuotes = () => {
   const [topQuotes, setTopQuotes] = useState([]);
   const [copied, setCopied] = useState(null);
 
-  // Função para obter 5 citações aleatórias em inglês do arquivo JSON
+  // Função para obter 5 citações aleatórias em português do arquivo JSON
   const getTopQuotes = () => {
-    // Filtra as citações em inglês
-    const englishQuotes = quotesData.filter(quote => quote.language === 'en');
+    // Filtra as citações em português
+    const portugueseQuotes = quotesData.filter(quote => quote.language === 'pt');
 
     // Embaralha as citações e seleciona as 5 primeiras
-    const shuffledQuotes = englishQuotes.sort(() => 0.5 - Math.random()).slice(0, 5);
+    const shuffledQuotes = portugueseQuotes.sort(() => 0.5 - Math.random()).slice(0, 5);
     setTopQuotes(shuffledQuotes);
   };
 
@@ -38,16 +39,15 @@ const TopQuotes = () => {
   return (
     <div className="top-quotes">
       <div className="navbar">
-        
         <a className="button-icon" href="https://github.com/DaviJoseMach/MotiQuote">
           <i className="fa-brands fa-github icon-b"></i>
         </a>
-        <Link className="button-icon" to="/">
+        <Link className="button-icon" to="/pt-home">
           <i className="fa-solid fa-backward icon-b"></i>
         </Link>
       </div>
-      <br /><br /><br/><br></br><br></br><br></br><br></br>
-      <h1> <b>‎ Top 5 ‎</b>‎‎ Quotes</h1>
+      <br /><br /><br/><br /><br /><br /><br />
+      <h1><b>‎Top 5‎</b>‎ Citações</h1>
       <div className="quote-cards">
         {topQuotes.map((quote, index) => (
           <div key={index} className="quote-card">
@@ -56,13 +56,13 @@ const TopQuotes = () => {
               className="copy-btn"
               onClick={() => copyToClipboard(quote)}
             >
-              <i className={`fa-solid ${copied === quote ? 'fa-check' : 'fa-copy'}`}></i> <span>{copied === quote ? 'Copied!' : 'Copy'}</span>
+              <i className={`fa-solid ${copied === quote ? 'fa-check' : 'fa-copy'}`}></i> <span>{copied === quote ? 'Copiado!' : 'Copiar'}</span>
             </button>
             <button
               className="copy-btn"
               onClick={() => share(quote)}
             >
-              <i className="fa-solid fa-share-nodes"></i> <span> Share</span>
+              <i className="fa-solid fa-share-nodes"></i> <span>Compartilhar</span>
             </button>
           </div>
         ))}

@@ -1,25 +1,25 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import quotesData from './quotes.json'; // Importa o JSON com as citações
-import './App.css';
-import './Collaborators.css';
-import collaboratorsData from './collaborators.json';
+import quotesData from '../quotes.json'; // Importa o JSON com as citações
+import '../App.css';
+import '../Collaborators.css';
+import collaboratorsData from '../collaborators.json';
 
-const Home = () => {
+const HomePt = () => {
   const [quote, setQuote] = useState('');
   const [copied, setCopied] = useState(false);
 
-  // Função para pegar uma citação aleatória em inglês do JSON
+  // Função para pegar uma citação aleatória em português do JSON
   const getQuote = () => {
-    // Filtra as citações para pegar apenas as em inglês
-    const englishQuotes = quotesData.filter(quote => quote.language === 'en');
-    if (englishQuotes.length === 0) {
-      setQuote('No quotes available in English.');
+    // Filtra as citações para pegar apenas as em português
+    const portugueseQuotes = quotesData.filter(quote => quote.language === 'pt');
+    if (portugueseQuotes.length === 0) {
+      setQuote('Nenhuma citação disponível em português.');
       return;
     }
-    const randomIndex = Math.floor(Math.random() * englishQuotes.length);
-    const quoteData = englishQuotes[randomIndex];
-    const newQuote = `${quoteData.text} - ${quoteData.author || 'Random'}`;
+    const randomIndex = Math.floor(Math.random() * portugueseQuotes.length);
+    const quoteData = portugueseQuotes[randomIndex];
+    const newQuote = `${quoteData.text} - ${quoteData.author || 'Aleatório'}`;
     setQuote(newQuote);
     setCopied(false);
   };
@@ -35,7 +35,7 @@ const Home = () => {
   };
 
   const share = () => {
-    const tweetText = encodeURIComponent(`✨ Here is an inspiring quote to brighten your day: "${quote}" 🌟 Veja mais em:`);  
+    const tweetText = encodeURIComponent(`✨ Aqui está uma citação inspiradora para alegrar seu dia: "${quote}" 🌟 Veja mais em:`);  
     const tweetUrl = encodeURIComponent("https://motiquote.vercel.app/");
     const twitterUrl = `https://twitter.com/intent/tweet?text=${tweetText}&url=${tweetUrl}`;
 
@@ -66,41 +66,41 @@ const Home = () => {
 
   return (
     <div className="Home">
-      <div className="navbar">
+           <div className="navbar">
       <div className="navbar-center">
         <a className="button-icon" href="https://github.com/DaviJoseMach/MotiQuote">
           <i className="fa-brands fa-github icon-b"></i>
         </a>
-        <Link className="button-icon" to="/top-quotes">
+        <Link className="button-icon" to="/pt-top">
           <i className="fa-solid fa-fire icon-b"></i>
         </Link>
-        <Link className="button-icon" to="/daily">
+        <Link className="button-icon" to="/pt-daily">
           <i className="fa-solid fa-cloud-sun icon-b"></i>
         </Link> 
         </div>
-        <Link className="button-icon-2" to="/pt-home">
+        <Link className="button-icon-2" to="/">
         <i class="fa-solid fa-language icon-2"></i>
         </Link>
       </div>
       <div className="content-wrapper">
         <header className="header">
-          <h1><b>‎ Motivational </b>‎‎ Quote</h1>
-          <button className="generate-btn" onClick={getQuote}>New Citation</button>
+          <h1><b>‎ Citação </b>‎‎ Motivacional</h1>
+          <button className="generate-btn" onClick={getQuote}>Nova Citação</button>
         </header>
         <div className="quote-card">
           <p>{quote}</p>
           <button className="copy-btn" onClick={copyToClipboard}>
               <i className={`fa-solid ${copied ? 'fa-check' : 'fa-copy'}`}></i> 
-              <span> {copied ? 'Copied!' : 'Copy'}</span>
+              <span> {copied ? 'Copiado!' : 'Copiar'}</span>
           </button>
           <button className="copy-btn" onClick={share}>
               <i className="fa-solid fa-share-nodes"></i> 
-              <span> Share</span>
+              <span> Compartilhar</span>
           </button>
         </div>
         <a className="button-icon-w" href="https://www.pixme.bio/davvzin">
           <i className="fa-solid fa-mug-hot icon-b"></i>
-          <span className="button-text">Buy me a drink</span>
+          <span className="button-text">Me compre uma bebida</span>
         </a> <br></br><br></br><br></br>
       </div>
       <div className="counters-container">
@@ -109,34 +109,34 @@ const Home = () => {
             <span className="plus-symbol">+</span>
             <span className="counter-number" data-target="6000">0</span>
           </div>
-          <h4>Quotes Generated</h4>
+          <h4>Citações Geradas</h4>
         </div>
         <div className="counter-card">
           <div className="counter">
             <span className="plus-symbol">+</span>
             <span className="counter-number" data-target="56">0</span>
           </div>
-          <h4>Motivated people</h4>
+          <h4>Pessoas Motivadas</h4>
         </div>
         <div className="counter-card">
           <div className="counter">
             <span className="plus-symbol"></span>
             <span className="counter-number" data-target="1852">0</span>
           </div>
-          <h4>Authors</h4>
+          <h4>Autores</h4>
         </div>
         <div className="counter-card">
           <div className="counter">
             <span className="plus-symbol">+</span>
             <span className="counter-number" data-target="3065">0</span>
           </div>
-          <h4>Motivated mornings</h4>
+          <h4>Manhãs Motivadas</h4>
         </div>
       </div>
       
       <center>
-          <h1>Collaborators</h1>
-          <p className='infus'>To appear here, just send a donation of just <b className='zum'>0.1</b> dollars or reais to the project</p> 
+          <h1>Colaboradores</h1>
+          <p className='infus'>Para aparecer aqui, basta enviar uma doação de apenas <b className='zum'>0.1</b> dólares ou reais para o projeto</p> 
       </center>
       <div className='collaborators'>
         <div className="collaborators-track">
@@ -156,4 +156,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePt;
