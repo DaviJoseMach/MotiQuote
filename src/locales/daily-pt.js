@@ -103,7 +103,7 @@ const Daily = () => {
       </div>
       <br></br>
       <center>
-        <p className="time-left">Próxima atualização em: <b className='time'> {timeLeft}</b></p>
+        <p className="time-left">Próxima frase em: <b className='time'> {timeLeft}</b></p>
       </center>
     </div>
   );

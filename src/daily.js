@@ -96,7 +96,7 @@ const Daily = () => {
       </div>
       <br></br>
       <center>
-        <p className="time-left">Next update in: <b className='time'> {timeLeft}</b></p>
+        <p className="time-left">Next quote in: <b className='time'> {timeLeft}</b></p>
       </center>
     </div>
   );
