@@ -82,6 +82,8 @@ const HomePt = () => {
         <i class="fa-solid fa-language icon-2"></i>
         </Link>
       </div>
+
+      <br></br><br></br><br></br>
       <div className="content-wrapper">
         <header className="header">
           <h1><b>‎ Citação </b>‎‎ Motivacional</h1>
