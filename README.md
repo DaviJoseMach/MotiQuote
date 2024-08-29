@@ -27,7 +27,7 @@ Motiquote is a React application that brings you an inspiring collection of moti
 
 Motiquote now uses its own custom API to deliver a unique collection of motivational quotes. Our API combines quotes stored locally in the project directory, giving us greater control, along with additional quotes sourced from the cloud. All quotes are seamlessly integrated into a single JSON file.
 
-[Learn more about our API](#)
+[Learn more about our API](api.md)
 
 
   
